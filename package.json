@@ -1,0 +1,36 @@
+{
+  "name": "findup-element",
+  "version": "0.0.0",
+  "description": "Given a child element, climb up the DOM and find the first parent element matching your criteria",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "beefy": "^1.1.0",
+    "browserify": "^4.1.5",
+    "domify": "^1.2.2",
+    "multiline": "^0.3.4",
+    "tape": "^2.13.1"
+  },
+  "scripts": {
+    "test": "beefy test.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/findup-element.git"
+  },
+  "keywords": [
+    "traverse",
+    "climb",
+    "dom",
+    "parent",
+    "match",
+    "element",
+    "html"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hughsk/findup-element/issues"
+  },
+  "homepage": "https://github.com/hughsk/findup-element"
+}
